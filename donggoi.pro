@@ -1,4 +1,3 @@
-include(../common.pri)
 TEMPLATE = aux
 
 INSTALLER = installer
@@ -19,7 +18,7 @@ win32 {
     INSTALLS = target
 }
 #message($$PWD)
-INPUT = $$PWD/config/config.xml $$PWD/../build/5.8.0/win32/release/lib
+INPUT = $$PWD/config/config.xml #$$PWD/../build/5.8.0/win32/release/lib
 message($$INPUT)
 example.input = INPUT
 example.output = $$INSTALLER
