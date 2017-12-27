@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>An khanh</Name>
+    <Version>1.0.0</Version>
+    <Title>An khanh</Title>
+    <Publisher>Bao khoa soft</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>KinhDoanh</StartMenuDir>
+    <TargetDir>@ThuMucCaiDat@</TargetDir>
+    <CreateLocalRepository>true</CreateLocalRepository>
+    <!--<RemoteRepositories>
+        <Repository>
+            <Url>http://baokhoa.ddns.net/qtapp/kinhdoanh</Url>
+        </Repository>
+    </RemoteRepositories>-->
+</Installer>
