@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>DichVu</DisplayName>
-    <Description>Các thành phần chạy chương trình dịch vụ</Description>
+    <DisplayName>Kinh doanh</DisplayName>
+    <Description>Các thành phần chạy chương trình kinh doanh</Description>
     <Version>1.0.2-3</Version>
     <ReleaseDate>2017-01-01</ReleaseDate>
     <Script>installscript.qs</Script>
