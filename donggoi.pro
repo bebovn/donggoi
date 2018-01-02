@@ -22,12 +22,14 @@ INPUT = $$PWD/config/config.xml #$$PWD/../build/5.8.0/win32/release/lib
 message($$INPUT)
 example.input = INPUT
 example.output = $$INSTALLER
-example.commands = ../../Qt/QtIFW2.0.5/bin/binarycreator -c $$PWD/config/config.xml -p $$PWD/packages ${QMAKE_FILE_OUT}
+#example.commands = ../../Qt/QtIFW2.0.5/bin/binarycreator --online-only -c $$PWD/config/config.xml -p $$PWD/packages ${QMAKE_FILE_OUT}
+example.commands = ../../Qt/QtIFW2.0.5/bin/repogen --update-new-components -p packages_update kinhdoanh
 example.CONFIG += target_predeps no_link combine
 QMAKE_EXTRA_COMPILERS += example
 OTHER_FILES = README
 
 DISTFILES += \
-    packages_update/nhansu/meta/package.xml \
-    packages/nhansu/meta/package.xml \
-    packages/nhansu/meta/installscript.qs
+    packages/QtCoreLib/meta/package.xml \
+    packages/QtCoreLib/meta/installscript.qs \
+    packages/report/meta/package.xml \
+    packages/report/meta/installscript.qs

@@ -33,7 +33,6 @@ function Component()
     else
         installer.setValue("ThuMucCaiDat","/usr/local/kinhdoanh");
 }
-
 Component.prototype.createOperations = function()
 {
     // call default implementation to actually install README.txt!
@@ -43,4 +42,3 @@ Component.prototype.createOperations = function()
             component.addOperation("CreateShortcut", "@ThuMucCaiDat@/kinhdoanh.exe", "@DesktopDir@/KinhDoanh.lnk");
     }
 }
-

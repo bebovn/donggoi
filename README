@@ -8,8 +8,8 @@ Generate online repository with
   D:\Qt\QtIFW2.0.5\bin\repogen.exe -p packages qtapp
 
 Generate i  nstaller with
-D:\Qt\QtIFW2.0.5\bin\binarycreator -c config/config.xml -p packages installer
-C:\Qt\QtIFW2.0.3\bin\binarycreator.exe binarycreator --online-only -c config/config.xml -p packages installer
+D:\Qt\QtIFW2.0.5\bin\binarycreator --online-only -c config/config.xml -p packages installer
+C:\Qt\QtIFW2.0.3\bin\binarycreator.exe --online-only -c config/config.xml -p packages installer
 
 Now launch a minimal web server in the example's directory (admin rights may be needed)
 
@@ -22,6 +22,8 @@ You should be able to now launch the installer.
 
 To deploy an update, run
     D:\Qt\QtIFW2.0.5\bin\repogen --update-new-components -p packages_update qtapp
-  repogen --update-new-components -p packages_update repository
+    D:\donggoi>D:\Qt\QtIFW2.0.5\bin\repogen -e QtCoreLib,report --update -p packages qtapp
+ 
+    repogen --update-new-components -p packages_update repository
 
 and launch the maintenance tool in your installation.

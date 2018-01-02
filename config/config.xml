@@ -8,9 +8,9 @@
     <StartMenuDir>KinhDoanh</StartMenuDir>
     <TargetDir>@ThuMucCaiDat@</TargetDir>
     <CreateLocalRepository>true</CreateLocalRepository>
-    <!--<RemoteRepositories>
-        <Repository>
-            <Url>http://baokhoa.ddns.net/qtapp/kinhdoanh</Url>
+    <RemoteRepositories>
+        <Repository displayname="Res kinhdoanh">
+            <Url>http://baokhoa.ddns.net/qtapp/rep_kinhdoanh</Url>
         </Repository>
-    </RemoteRepositories>-->
+    </RemoteRepositories>
 </Installer>
