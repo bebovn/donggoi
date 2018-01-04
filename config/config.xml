@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Installer>
-    <Name>Phần mềm kinh doanh</Name>
+    <Name>Phần mềm dịch vụ</Name>
     <Version>1.0.0</Version>
-    <Title>Phần mềm kinh doanh dành cho an khánh</Title>
+    <Title>Phần mềm dịch vụ dành cho an khánh</Title>
     <Publisher>Bao khoa soft</Publisher>
     <!-- Directory name is used in component.xml -->
-    <StartMenuDir>KinhDoanh</StartMenuDir>
+    <StartMenuDir>DichVu</StartMenuDir>
     <TargetDir>@ThuMucCaiDat@</TargetDir>
     <CreateLocalRepository>true</CreateLocalRepository>
     <RemoteRepositories>
         <Repository displayname="Res kinhdoanh">
-            <Url>http://baokhoa.ddns.net/qtapp/rep_kinhdoanh</Url>
+            <Url>http://baokhoa.ddns.net/qtapp/rep_dichvu</Url>
         </Repository>
     </RemoteRepositories>
 </Installer>
