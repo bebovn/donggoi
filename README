@@ -22,7 +22,7 @@ You should be able to now launch the installer.
 
 To deploy an update, run
     D:\Qt\QtIFW2.0.5\bin\repogen --update-new-components -p packages_update qtapp
-    D:\donggoi>D:\Qt\QtIFW2.0.5\bin\repogen -e QtCoreLib,report --update -p packages qtapp
+    D:\Qt\QtIFW2.0.5\bin\repogen -e QtCoreLib,report --update -p packages qtapp
  
     repogen --update-new-components -p packages_update repository
 
