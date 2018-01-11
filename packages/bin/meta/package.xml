@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Package>
     <DisplayName>Bin</DisplayName>
-    	thành chính</Description>
-    <Version>7.5.3-1</Version>
+    <Description>Thư viện chính</Description>
+    <Version>7.5.4</Version>
     <ReleaseDate>2018-01-04</ReleaseDate>
     <!-- tu dong lay cai cuoi cung theo thu tu a-z -->
     <!--<Script>installscript.qs</Script> -->

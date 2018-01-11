@@ -29,9 +29,9 @@ function Component()
 {
     // default constructor
     if (systemInfo.productType === "windows")
-        installer.setValue("ThuMucCaiDat",  "C:\\Program Files\\Bao Khoa\\kinhdoanh");
+        installer.setValue("ThuMucCaiDat",  "C:\\Program Files\\Bao Khoa\\nhansu");
     else
-        installer.setValue("ThuMucCaiDat","/usr/local/kinhdoanh");
+        installer.setValue("ThuMucCaiDat","/usr/local/nhansu");
 }
 Component.prototype.createOperations = function()
 {
@@ -39,6 +39,6 @@ Component.prototype.createOperations = function()
     component.createOperations();
 
     if (systemInfo.productType === "windows") {
-            component.addOperation("CreateShortcut", "@ThuMucCaiDat@/kinhdoanh.exe", "@DesktopDir@/KinhDoanh.lnk");
+            component.addOperation("CreateShortcut", "@ThuMucCaiDat@/nhansu.exe", "@DesktopDir@/NhanSu.lnk");
     }
 }
