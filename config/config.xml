@@ -2,15 +2,15 @@
 <Installer>
     <Name>Phần mềm dịch vụ</Name>
     <Version>1.0.0</Version>
-    <Title>Phần mềm dịch vụ dành cho an khánh</Title>
+    <Title>Phần mềm dịch vụ Isuzu Mai Linh</Title>
     <Publisher>Bao khoa soft</Publisher>
     <!-- Directory name is used in component.xml -->
     <StartMenuDir>DichVu</StartMenuDir>
     <TargetDir>@ThuMucCaiDat@</TargetDir>
     <CreateLocalRepository>true</CreateLocalRepository>
     <RemoteRepositories>
-        <Repository displayname="Res kinhdoanh">
-            <Url>http://baokhoa.ddns.net/qtapp/rep_dichvu</Url>
+        <Repository displayname="Res dich vu Mai Linh">
+            <Url>http://baokhoa.ddns.net/qtapp/rep_dichvu-ml</Url>
         </Repository>
     </RemoteRepositories>
 </Installer>

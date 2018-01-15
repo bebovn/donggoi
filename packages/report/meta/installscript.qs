@@ -29,9 +29,9 @@ function Component()
 {
     // default constructor
     if (systemInfo.productType === "windows")
-        installer.setValue("ThuMucCaiDat",  "C:\\Program Files\\Bao Khoa\\dichvu");
+        installer.setValue("ThuMucCaiDat",  "C:\\Program Files\\Bao Khoa\\dichvu-ml");
     else
-        installer.setValue("ThuMucCaiDat","/usr/local/dichvu");
+        installer.setValue("ThuMucCaiDat","/usr/local/dichvu-ml");
 }
 Component.prototype.createOperations = function()
 {
