@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Installer>
-    <Name>Phần mềm dịch vụ</Name>
+    <Name>Phần mềm dịch vụ Mai Linh</Name>
     <Version>1.0.0</Version>
     <Title>Phần mềm dịch vụ Isuzu Mai Linh</Title>
     <Publisher>Bao khoa soft</Publisher>
     <!-- Directory name is used in component.xml -->
-    <StartMenuDir>DichVu</StartMenuDir>
+    <StartMenuDir>MaiLinhDichVu</StartMenuDir>
     <TargetDir>@ThuMucCaiDat@</TargetDir>
     <CreateLocalRepository>true</CreateLocalRepository>
     <RemoteRepositories>
