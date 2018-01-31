@@ -2,7 +2,7 @@
 <Package>
     <DisplayName>Bin</DisplayName>
     <Description>Thư viện chính</Description>
-    <Version>7.5.8</Version>
+    <Version>7.6.0</Version>
     <ReleaseDate>2018-01-30</ReleaseDate>
     <!-- tu dong lay cai cuoi cung theo thu tu a-z -->
     <!--<Script>installscript.qs</Script> -->
