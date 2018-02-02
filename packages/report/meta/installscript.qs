@@ -39,6 +39,6 @@ Component.prototype.createOperations = function()
     component.createOperations();
 
     if (systemInfo.productType === "windows") {
-            component.addOperation("CreateShortcut", "@ThuMucCaiDat@/kinhdoanh.exe", "@DesktopDir@/KinhDoanh.lnk");
+            component.addOperation("CreateShortcut", "@ThuMucCaiDat@/isuzu.exe", "@DesktopDir@/KinhDoanh.lnk");
     }
 }
