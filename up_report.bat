@@ -1,0 +1,1 @@
+D:\Qt\QtIFW2.0.5\bin\repogen --update -e QtCoreLib,bin -p packages nhansu
