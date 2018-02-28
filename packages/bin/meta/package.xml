@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Bin</DisplayName>
     <Description>Các thành chính</Description>
-    <Version>1.1.0</Version>
-    <ReleaseDate>2018-02-26</ReleaseDate>
+    <Version>1.1.4</Version>
+    <ReleaseDate>2018-02-28</ReleaseDate>
     <!-- tu dong lay cai cuoi cung theo thu tu a-z -->
     <!--<Script>installscript.qs</Script> -->
     <Default>true</Default>
