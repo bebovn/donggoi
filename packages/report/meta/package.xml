@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Report</DisplayName>
     <Description>Các thành phần report cho dich vụ</Description>
-    <Version>1.1.2</Version>
-    <ReleaseDate>2018-03-01</ReleaseDate>
+    <Version>1.1.9</Version>
+    <ReleaseDate>2018-03-07</ReleaseDate>
     <Script>installscript.qs</Script>
     <Default>true</Default>
 </Package>
