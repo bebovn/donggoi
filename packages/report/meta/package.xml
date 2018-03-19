@@ -3,7 +3,7 @@
     <DisplayName>Report</DisplayName>
     <Description>Các thành phần report cho dich vụ</Description>
     <Version>1.0.2</Version>
-    <ReleaseDate>2018-01-26</ReleaseDate>
+    <ReleaseDate>2018-03-19</ReleaseDate>
     <Script>installscript.qs</Script>
     <Default>true</Default>
 </Package>
