@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Qt Core Lib</DisplayName>
     <Description>Các thư viện chạy phần mềm dịch vụ</Description>
-    <Version>1.0.9</Version>
-    <ReleaseDate>2018-03-14</ReleaseDate>
+    <Version>1.1.3</Version>
+    <ReleaseDate>2018-03-29</ReleaseDate>
     <!--<Script>installscript.qs</Script>-->
     <Default>true</Default>
 </Package>
