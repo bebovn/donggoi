@@ -2,7 +2,7 @@
 <Package>
     <DisplayName>Bin</DisplayName>
     <Description>Các thành chính</Description>
-    <Version>1.5.0</Version>
+    <Version>1.5.4</Version>
     <ReleaseDate>2018-04-05</ReleaseDate>
     <Default>true</Default>
 </Package>
