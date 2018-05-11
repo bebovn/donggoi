@@ -10,7 +10,7 @@
     <CreateLocalRepository>true</CreateLocalRepository>
     <RemoteRepositories>
         <Repository displayname="Res dich vu Mai Linh">
-            <Url>http://baokhoa.ddns.net/qtapp/rep_dichvu-ml</Url>
+            <Url>http://isuzuml.ddns.net/rep/dichvu</Url>
         </Repository>
     </RemoteRepositories>
 </Installer>
