@@ -5,23 +5,23 @@
     <pages Type="Collection">
       <item ClassName="LimeReport::PageDesignIntf" Type="Object">
         <objectName Type="QString">page1</objectName>
-        <sceneRect width="3070" x="-50" height="2200" Type="QRect" y="-50"/>
+        <sceneRect y="-50" height="2200" x="-50" Type="QRect" width="3070"/>
         <bspTreeDepth Type="int" Value="5"/>
-        <font family="Cantarell" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+        <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Cantarell" pointSize="11"/>
         <sortCacheEnabled Type="bool" Value="0"/>
         <stickyFocus Type="bool" Value="0"/>
         <minimumRenderSize Type="qreal" Value="0"/>
         <pageItem ClassName="PageItem" Type="Object">
           <objectName Type="QString">ReportPage1</objectName>
-          <geometry width="2970" x="0" height="2100" Type="QRect" y="0"/>
+          <geometry y="0" height="2100" x="0" Type="QRect" width="2970"/>
           <children Type="Collection">
             <item ClassName="ReportHeader" Type="Object">
               <objectName Type="QString">ReportHeader1</objectName>
-              <geometry width="2770" x="100" height="460" Type="QRect" y="50"/>
+              <geometry y="50" height="460" x="100" Type="QRect" width="2770"/>
               <children Type="Collection">
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem2</objectName>
-                  <geometry width="2760" x="0" height="210" Type="QRect" y="220"/>
+                  <geometry y="220" height="210" x="0" Type="QRect" width="2760"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -38,7 +38,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="15" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="15"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -61,7 +61,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="ImageItem" Type="Object">
                   <objectName Type="QString">ImageItem1</objectName>
-                  <geometry width="2760" x="0" height="220" Type="QRect" y="0"/>
+                  <geometry y="0" height="220" x="0" Type="QRect" width="2760"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -76,6 +76,7 @@ $D{ky.DIEN_GIAI}</content>
                   <opacity Type="int" Value="100"/>
                   <datasource Type="QString"></datasource>
                   <field Type="QString"></field>
+                  <format Type="enumAndFlags" Value="0"/>
                   <autoSize Type="bool" Value="0"/>
                   <scale Type="bool" Value="1"/>
                   <keepAspectRatio Type="bool" Value="0"/>
@@ -97,15 +98,14 @@ $D{ky.DIEN_GIAI}</content>
               <backgroundBrushStyle Type="enumAndFlags" Value="1"/>
               <printIfEmpty Type="bool" Value="0"/>
               <splittable Type="bool" Value="0"/>
-              <printBeforePageHeader Type="bool" Value="0"/>
             </item>
             <item ClassName="Data" Type="Object">
               <objectName Type="QString">DataBand10</objectName>
-              <geometry width="2770" x="100" height="50" Type="QRect" y="668"/>
+              <geometry y="668" height="50" x="100" Type="QRect" width="2770"/>
               <children Type="Collection">
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem10</objectName>
-                  <geometry width="450" x="90" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="90" Type="QRect" width="450"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0.1"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -121,7 +121,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="33"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#f3f6ff"/>
@@ -144,7 +144,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem5</objectName>
-                  <geometry width="90" x="0" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="0" Type="QRect" width="90"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -160,7 +160,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -183,7 +183,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem7</objectName>
-                  <geometry width="220" x="540" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="540" Type="QRect" width="220"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -199,7 +199,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -222,7 +222,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem29</objectName>
-                  <geometry width="200" x="760" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -238,7 +238,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -261,7 +261,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem38</objectName>
-                  <geometry width="200" x="960" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -277,7 +277,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -300,7 +300,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem39</objectName>
-                  <geometry width="200" x="1160" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="1160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -316,7 +316,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -339,7 +339,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem40</objectName>
-                  <geometry width="200" x="1360" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="1360" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -355,7 +355,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -378,7 +378,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem41</objectName>
-                  <geometry width="200" x="1960" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="1960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -394,7 +394,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -417,7 +417,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem42</objectName>
-                  <geometry width="200" x="1760" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="1760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -433,7 +433,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -456,7 +456,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem43</objectName>
-                  <geometry width="200" x="1560" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="1560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -472,7 +472,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -495,7 +495,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem44</objectName>
-                  <geometry width="200" x="2160" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="2160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -511,7 +511,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -534,7 +534,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem45</objectName>
-                  <geometry width="200" x="2360" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="2360" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -550,7 +550,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -573,7 +573,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem46</objectName>
-                  <geometry width="200" x="2560" height="42" Type="QRect" y="0"/>
+                  <geometry y="0" height="42" x="2560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -589,7 +589,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="130"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="9" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="9"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -634,15 +634,14 @@ $D{ky.DIEN_GIAI}</content>
               <startNewPage Type="bool" Value="0"/>
               <startFromNewPage Type="bool" Value="0"/>
               <alternateBackgroundColor Type="QColor" Value="#ffffff"/>
-              <useAlternateBackgroundColor Type="bool" Value="0"/>
             </item>
             <item ClassName="DataHeader" Type="Object">
               <objectName Type="QString">DataHeaderBand3</objectName>
-              <geometry width="2770" x="100" height="150" Type="QRect" y="514"/>
+              <geometry y="514" height="150" x="100" Type="QRect" width="2770"/>
               <children Type="Collection">
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem3</objectName>
-                  <geometry width="92" x="0" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="0" Type="QRect" width="92"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -658,7 +657,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -681,7 +680,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem4</objectName>
-                  <geometry width="450" x="90" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="90" Type="QRect" width="450"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -697,7 +696,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -720,7 +719,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem6</objectName>
-                  <geometry width="222" x="540" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="540" Type="QRect" width="222"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -736,7 +735,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -759,7 +758,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem8</objectName>
-                  <geometry width="800" x="760" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="760" Type="QRect" width="800"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -775,7 +774,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -798,7 +797,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem9</objectName>
-                  <geometry width="200" x="760" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -814,7 +813,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -837,7 +836,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem11</objectName>
-                  <geometry width="200" x="760" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -853,7 +852,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -876,7 +875,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem13</objectName>
-                  <geometry width="200" x="960" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -892,7 +891,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -915,7 +914,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem14</objectName>
-                  <geometry width="200" x="1160" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="1160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -931,7 +930,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -954,7 +953,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem15</objectName>
-                  <geometry width="200" x="960" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -970,7 +969,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -993,7 +992,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem16</objectName>
-                  <geometry width="200" x="1160" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="1160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1009,7 +1008,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1032,7 +1031,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem17</objectName>
-                  <geometry width="200" x="1360" height="100" Type="QRect" y="50"/>
+                  <geometry y="50" height="100" x="1360" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1048,7 +1047,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1071,7 +1070,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem47</objectName>
-                  <geometry width="200" x="1760" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="1760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1087,7 +1086,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1110,7 +1109,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem48</objectName>
-                  <geometry width="200" x="2160" height="100" Type="QRect" y="50"/>
+                  <geometry y="50" height="100" x="2160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1126,7 +1125,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1149,7 +1148,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem49</objectName>
-                  <geometry width="200" x="1960" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="1960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1165,7 +1164,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1188,7 +1187,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem50</objectName>
-                  <geometry width="200" x="1960" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="1960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1204,7 +1203,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1227,7 +1226,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem51</objectName>
-                  <geometry width="200" x="1560" height="50" Type="QRect" y="50"/>
+                  <geometry y="50" height="50" x="1560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1243,7 +1242,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1266,7 +1265,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem52</objectName>
-                  <geometry width="800" x="1560" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="1560" Type="QRect" width="800"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="-0.1"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1282,7 +1281,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1305,7 +1304,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem53</objectName>
-                  <geometry width="200" x="1560" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="1560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1321,7 +1320,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1344,7 +1343,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem54</objectName>
-                  <geometry width="200" x="1760" height="50" Type="QRect" y="100"/>
+                  <geometry y="100" height="50" x="1760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1360,7 +1359,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1383,7 +1382,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem55</objectName>
-                  <geometry width="200" x="2360" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="2360" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1399,7 +1398,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1422,7 +1421,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem56</objectName>
-                  <geometry width="202" x="2560" height="150" Type="QRect" y="0"/>
+                  <geometry y="0" height="150" x="2560" Type="QRect" width="202"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1439,7 +1438,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="132"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1482,11 +1481,11 @@ $D{ky.DIEN_GIAI}</content>
             </item>
             <item ClassName="ReportFooter" Type="Object">
               <objectName Type="QString">ReportFooter57</objectName>
-              <geometry width="2770" x="100" height="480" Type="QRect" y="826"/>
+              <geometry y="826" height="480" x="100" Type="QRect" width="2770"/>
               <children Type="Collection">
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem57</objectName>
-                  <geometry width="2746" x="4" height="50" Type="QRect" y="4"/>
+                  <geometry y="4" height="50" x="4" Type="QRect" width="2746"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1502,7 +1501,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="33"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="1" pointSize="11" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="1" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1525,7 +1524,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem58</objectName>
-                  <geometry width="2746" x="4" height="50" Type="QRect" y="54"/>
+                  <geometry y="54" height="50" x="4" Type="QRect" width="2746"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1541,7 +1540,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="33"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="1"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1564,7 +1563,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem59</objectName>
-                  <geometry width="2746" x="4" height="50" Type="QRect" y="104"/>
+                  <geometry y="104" height="50" x="4" Type="QRect" width="2746"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1580,7 +1579,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="33"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="1"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1603,7 +1602,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem60</objectName>
-                  <geometry width="2746" x="4" height="50" Type="QRect" y="154"/>
+                  <geometry y="154" height="50" x="4" Type="QRect" width="2746"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1619,7 +1618,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="33"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1642,7 +1641,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="ShapeItem" Type="Object">
                   <objectName Type="QString">ShapeItem60</objectName>
-                  <geometry width="2546" x="202" height="22" Type="QRect" y="32"/>
+                  <geometry y="32" height="22" x="202" Type="QRect" width="2546"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1664,7 +1663,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem61</objectName>
-                  <geometry width="316" x="2070" height="210" Type="QRect" y="206"/>
+                  <geometry y="206" height="210" x="2070" Type="QRect" width="316"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1680,7 +1679,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1703,7 +1702,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem62</objectName>
-                  <geometry width="316" x="2070" height="50" Type="QRect" y="416"/>
+                  <geometry y="416" height="50" x="2070" Type="QRect" width="316"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="0"/>
@@ -1719,7 +1718,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="11" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="11"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1759,11 +1758,11 @@ $D{ky.DIEN_GIAI}</content>
             </item>
             <item ClassName="DataFooter" Type="Object">
               <objectName Type="QString">DataFooterBand1</objectName>
-              <geometry width="2770" x="100" height="100" Type="QRect" y="722"/>
+              <geometry y="722" height="100" x="100" Type="QRect" width="2770"/>
               <children Type="Collection">
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem18</objectName>
-                  <geometry width="220" x="540" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="540" Type="QRect" width="220"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1779,7 +1778,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1802,7 +1801,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem19</objectName>
-                  <geometry width="200" x="760" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1818,7 +1817,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1841,7 +1840,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem20</objectName>
-                  <geometry width="200" x="960" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1857,7 +1856,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1880,7 +1879,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem21</objectName>
-                  <geometry width="200" x="1160" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="1160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1896,7 +1895,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1919,7 +1918,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem22</objectName>
-                  <geometry width="202" x="1360" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="1360" Type="QRect" width="202"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1935,7 +1934,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1958,7 +1957,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem23</objectName>
-                  <geometry width="200" x="1560" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="1560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -1974,7 +1973,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -1997,7 +1996,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem24</objectName>
-                  <geometry width="200" x="1760" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="1760" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2013,7 +2012,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2036,7 +2035,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem25</objectName>
-                  <geometry width="200" x="1960" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="1960" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2052,7 +2051,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2075,7 +2074,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem26</objectName>
-                  <geometry width="200" x="2160" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="2160" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2091,7 +2090,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2114,7 +2113,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem27</objectName>
-                  <geometry width="200" x="2360" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="2360" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2125,12 +2124,12 @@ $D{ky.DIEN_GIAI}</content>
                   <itemLocation Type="enumAndFlags" Value="0"/>
                   <stretchToMaxHeight Type="bool" Value="0"/>
                   <itemAlign Type="enumAndFlags" Value="4"/>
-                  <content Type="QString">$S{numberFormat($D{tong.tongTongPhong},"f",0,"en")}</content>
+                  <content Type="QString">$S{numberFormat($S{SUM($D{phieu_luong.tongTongPhong}, "DataBand10")},"f",0,"en")}</content>
                   <margin Type="int" Value="4"/>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2153,7 +2152,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem28</objectName>
-                  <geometry width="200" x="2560" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="2560" Type="QRect" width="200"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2169,7 +2168,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="34"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="50" Type="QFont" italic="0"/>
+                  <font underline="0" weight="50" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2192,7 +2191,7 @@ $D{ky.DIEN_GIAI}</content>
                 </item>
                 <item ClassName="TextItem" Type="Object">
                   <objectName Type="QString">TextItem30</objectName>
-                  <geometry width="540" x="0" height="46" Type="QRect" y="0"/>
+                  <geometry y="0" height="50" x="0" Type="QRect" width="540"/>
                   <children Type="Collection"/>
                   <zOrder Type="qreal" Value="0"/>
                   <borders Type="enumAndFlags" Value="15"/>
@@ -2208,7 +2207,7 @@ $D{ky.DIEN_GIAI}</content>
                   <alignment Type="enumAndFlags" Value="36"/>
                   <autoWidth Type="enumAndFlags" Value="0"/>
                   <autoHeight Type="bool" Value="0"/>
-                  <font family="Times New Roman" underline="0" pointSize="10" stylename="" weight="75" Type="QFont" italic="0"/>
+                  <font underline="0" weight="75" stylename="" Type="QFont" italic="0" family="Times New Roman" pointSize="10"/>
                   <backgroundOpacity Type="int" Value="100"/>
                   <backgroundMode Type="enumAndFlags" Value="1"/>
                   <backgroundColor Type="QColor" Value="#ffffff"/>
@@ -2264,8 +2263,6 @@ $D{ky.DIEN_GIAI}</content>
           <fullPage Type="bool" Value="0"/>
           <oldPrintMode Type="bool" Value="0"/>
           <resetPageNumber Type="bool" Value="0"/>
-          <isExtendedInDesignMode Type="bool" Value="0"/>
-          <extendedHeight Type="int" Value="1000"/>
         </pageItem>
       </item>
     </pages>
@@ -2281,14 +2278,14 @@ $D{ky.DIEN_GIAI}</content>
         </item>
         <item ClassName="LimeReport::QueryDesc" Type="Object">
           <objectName Type="QString"></objectName>
-          <queryName Type="QString">tong</queryName>
-          <queryText Type="QString">select sum(PHIEU_LUONG.LUONG_CO_BAN) as tong_tien,count(PHIEU_LUONG.NHANVIENID) as so_nguoi,PHIEU_LUONG.BHYT_LD,PHIEU_LUONG.BHXH_LD,PHIEU_LUONG.BHTN_LD,TONG_BH_LD,PHIEU_LUONG.BHYT_CTY,PHIEU_LUONG.BHXH_CTY,PHIEU_LUONG.BHTN_CTY,TONG_BH_CTY,sum(PHIEU_LUONG.SO_TIEN_BHTN_LD) as  bhtn_ld1,sum(PHIEU_LUONG.SO_TIEN_BHYT_LD) as  bhyt_ld1,sum(PHIEU_LUONG.SO_TIEN_BHXH_LD) as  bhxh_ld1, sum(PHIEU_LUONG.PC_105LCB) as tongSTLD,sum(PHIEU_LUONG.SO_TIEN_BHTN_CTY) as  bhtn_cty1,sum(PHIEU_LUONG.SO_TIEN_BHYT_CTY) as  bhyt_cty1,sum(PHIEU_LUONG.SO_TIEN_BHXH_CTY) as  bhxh_cty1,sum(SO_TIEN_TONG_BH_CTY) as tongBHCTY, sum(PHIEU_LUONG.PC_105LCB) +sum(SO_TIEN_TONG_BH_CTY) as tongTongPhong from PHIEU_LUONG left join NHAN_VIEN on NHAN_VIEN.NHANVIENID = PHIEU_LUONG.NHANVIENID where KYID = $V{kyid} and PHIEU_LUONG.LUONG_CO_BAN>0 limit 1</queryText>
+          <queryName Type="QString">phieu_luong</queryName>
+          <queryText Type="QString">SELECT TEN_PHONG_BAN,SUM(PHIEU_LUONG.LUONG_CO_BAN+COALESCE(PHIEU_LUONG.LUONG_CO_BAN_DC_TANG,0)) as so_tien, sum(PHIEU_LUONG.SO_TIEN_BHTN_LD) as  bhtn_ld,sum(PHIEU_LUONG.SO_TIEN_BHYT_LD) as  bhyt_ld,sum(PHIEU_LUONG.SO_TIEN_BHXH_LD) as  bhxh_ld, sum(PHIEU_LUONG.CKGT_BH105LCB+BH_NLD_DONG) as tongSTLD,sum(PHIEU_LUONG.SO_TIEN_BHTN_CTY) as  bhtn_cty,sum(PHIEU_LUONG.SO_TIEN_BHYT_CTY) as  bhyt_cty,sum(PHIEU_LUONG.SO_TIEN_BHXH_CTY) as  bhxh_cty,sum(SO_TIEN_TONG_BH_CTY) as tongBHCTY, sum(PHIEU_LUONG.CKGT_BH105LCB+ COALESCE(PHIEU_LUONG.BH_NLD_DONG,0) )+ sum(SO_TIEN_TONG_BH_CTY) as tongTongPhong FROM PHIEU_LUONG LEFT JOIN NHAN_VIEN ON NHAN_VIEN.NHANVIENID = PHIEU_LUONG.NHANVIENID LEFT JOIN PHONG_BAN ON PHONG_BAN.PHONGBANID = NHAN_VIEN.PHONGBANID where PHIEU_LUONG.LUONG_CO_BAN>0 and KYID = $V{kyid} GROUP BY PHONG_BAN.PHONGBANID</queryText>
           <connectionName Type="QString">qt_sql_default_connection</connectionName>
         </item>
         <item ClassName="LimeReport::QueryDesc" Type="Object">
           <objectName Type="QString"></objectName>
-          <queryName Type="QString">phieu_luong</queryName>
-          <queryText Type="QString">SELECT TEN_PHONG_BAN,SUM(PHIEU_LUONG.LUONG_CO_BAN) as so_tien, sum(PHIEU_LUONG.SO_TIEN_BHTN_LD) as  bhtn_ld,sum(PHIEU_LUONG.SO_TIEN_BHYT_LD) as  bhyt_ld,sum(PHIEU_LUONG.SO_TIEN_BHXH_LD) as  bhxh_ld, sum(PHIEU_LUONG.PC_105LCB) as tongSTLD,sum(PHIEU_LUONG.SO_TIEN_BHTN_CTY) as  bhtn_cty,sum(PHIEU_LUONG.SO_TIEN_BHYT_CTY) as  bhyt_cty,sum(PHIEU_LUONG.SO_TIEN_BHXH_CTY) as  bhxh_cty,sum(SO_TIEN_TONG_BH_CTY) as tongBHCTY, sum(PHIEU_LUONG.PC_105LCB+SO_TIEN_TONG_BH_CTY) as tongTongPhong FROM PHIEU_LUONG LEFT JOIN NHAN_VIEN ON NHAN_VIEN.NHANVIENID = PHIEU_LUONG.NHANVIENID LEFT JOIN PHONG_BAN ON PHONG_BAN.PHONGBANID = NHAN_VIEN.PHONGBANID where PHIEU_LUONG.LUONG_CO_BAN>0 and KYID = $V{kyid} GROUP BY PHONG_BAN.PHONGBANID</queryText>
+          <queryName Type="QString">tong</queryName>
+          <queryText Type="QString">select sum(PHIEU_LUONG.LUONG_CO_BAN +COALESCE( PHIEU_LUONG.LUONG_CO_BAN_DC_TANG,0)) as tong_tien,count(PHIEU_LUONG.NHANVIENID) as so_nguoi,PHIEU_LUONG.BHYT_LD,PHIEU_LUONG.BHXH_LD,PHIEU_LUONG.BHTN_LD,TONG_BH_LD,PHIEU_LUONG.BHYT_CTY,PHIEU_LUONG.BHXH_CTY,PHIEU_LUONG.BHTN_CTY,TONG_BH_CTY,sum(PHIEU_LUONG.SO_TIEN_BHTN_LD) as  bhtn_ld1,sum(PHIEU_LUONG.SO_TIEN_BHYT_LD) as  bhyt_ld1,sum(PHIEU_LUONG.SO_TIEN_BHXH_LD) as  bhxh_ld1, sum(PHIEU_LUONG.PC_105LCB+BH_NLD_DONG) as tongSTLD,sum(PHIEU_LUONG.SO_TIEN_BHTN_CTY) as  bhtn_cty1,sum(PHIEU_LUONG.SO_TIEN_BHYT_CTY) as  bhyt_cty1,sum(PHIEU_LUONG.SO_TIEN_BHXH_CTY) as  bhxh_cty1,sum(SO_TIEN_TONG_BH_CTY) as tongBHCTY, sum(PHIEU_LUONG.PC_105LCB+BH_NLD_DONG) +sum(SO_TIEN_TONG_BH_CTY) as tongTongPhong from PHIEU_LUONG left join NHAN_VIEN on NHAN_VIEN.NHANVIENID = PHIEU_LUONG.NHANVIENID where KYID = $V{kyid} and PHIEU_LUONG.LUONG_CO_BAN>0 limit 1</queryText>
           <connectionName Type="QString">qt_sql_default_connection</connectionName>
         </item>
       </queries>
@@ -2323,7 +2320,7 @@ $D{ky.DIEN_GIAI}</content>
         <item ClassName="LimeReport::VarDesc" Type="Object">
           <objectName Type="QString"></objectName>
           <name Type="QString">kyid</name>
-          <value Type="QString">7</value>
+          <value Type="QString">21</value>
         </item>
       </variables>
     </datasourcesManager>
