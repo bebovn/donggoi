@@ -1,0 +1,1 @@
+C:\Qt\QtIFW2.0.3\bin\repogen --update -e report,bin -p packages dv_mailinh
